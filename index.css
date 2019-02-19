@@ -1,0 +1,239 @@
+/* HEADER */
+.banner{
+    background: url("img/fotodev.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 490px; */
+    background-color: green;
+    padding-top: 20px;
+}
+
+.logo{
+    width: 50%;
+    /* background-color: red; */
+}
+
+.info-about{
+    width: 50%;
+    /* background-color: blue; */
+    text-transform: uppercase;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-about h1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.info-about h1::before{
+    content: '';
+    width: 26%; 
+    height: 3px;
+    background: currentColor;
+    display: block;    
+    margin-bottom: 16px;
+}
+
+.info-about button{
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 2px black;
+    padding: 5px 5px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+    width: 9%;
+    /* background-color: blue; */
+    color: inherit;
+    padding: 15px 20px;
+}
+
+.redes-sociais{
+    /* background-color: red; */
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* MENU NAVEGAÇÃO */
+nav{
+    background-color: black;
+}
+
+.menu{
+    width: 100%;
+}
+.menu a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    background: dimgray;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+/* Parte de como funciona */
+.como-funciona h2{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    padding: 60px 0;
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+.como-funciona h2::before{
+    content: '';
+    width: 26%; 
+    height: 3px;
+    background: currentColor;
+    display: block;    
+    margin:0 auto;
+}
+
+.como-funciona h2::after{
+    content: '';
+    width: 26%; 
+    height: 3px;
+    background: currentColor;
+    display: flex;    
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.como-funciona .content-como-funciona{
+    /* background-color: red; */
+    width: 33.33%;
+}
+
+.como-funciona .content-como-funciona h3 , p ,i{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.como-funciona .content-como-funciona p{
+    padding: 15px 45px;
+}
+
+.como-funciona button{
+    width: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    border: solid 2px black;
+    padding: 5px 5px;
+    margin:60px 0px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #202020;
+    color: white;
+}
+.title h1{
+    /* background-color: blue; */
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.title {
+    /* background-color: blue; */
+    border-bottom: 2px solid #525050;
+    padding-bottom: 20px;
+}
+
+/* FORMULARIO */
+.formulario {
+    margin-top: 40px;
+}
+
+.formulario input{
+   width: 100%;
+   background-color: #202020;
+   border: 2px solid #525050;
+   color: white;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   height: 30px;
+}
+
+.formulario textarea{
+    width: 100%;
+   background-color: #202020;
+   border: 2px solid #525050;
+   color: white;
+   margin-top: 10px;
+   margin-bottom: 40px;
+   resize: none;
+}
+
+.formulario button{
+    padding: 5px;
+    border: solid 1px;
+    background: none;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+    width: 180px;
+    margin-bottom: 80px;
+}
+
+.containerform{
+    border-bottom: 2px solid #525050;
+}
+
+.social-contato{
+    padding-top: 40px;
+}
+
+.social-contato ul{
+    display: flex;
+    list-style: none;
+}
+
+.social-contato ul li{
+    position: relative;
+    width: 100%;
+}
+
+.social-contato h1::after{
+    content: '';
+    width: 26%; 
+    height: 3px;
+    background: currentColor;
+    display: block;    
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+
+.copy{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
